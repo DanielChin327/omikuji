@@ -9,126 +9,170 @@
     <link rel="stylesheet" href="style.css">
 
   </head>
-
-
   <body>
 
 <div class="container">
-  <h1 class="text-center mt-2">Omikuji</h1>
+  <h1 class="text-center mt-2">What is Omikuji?</h1>
   <p class="text-center">Get your fortune told. </p>
-  <hr>
+
+
+
+
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('./images/fushimi.jpeg');">
+  <div class="container">
+    <h1>What is Omikuji?</h1>
+    <p>Fortunes.</p>
+  </div>
+</div>
+
   <div class="d-flex justify-content-center">
     <button type="button" class="btn btn-light btn-lg">Get Your Drawer Number</button>
   </div>
   <h2 id="activity" class="text-center mt-5"></h2>
 </div>
 
+<div class="omikuji-info-cards">
+  <div class="col omikuji-info-card">
+    <h3> What is Omikuji? </h3>
+    <p>Omikuji, which translates to "sacred lottery," has its roots in ancient Japan, dating back to the Heian period (794-1185). Initially a courtly diversion, it evolved into a spiritual practice. Omikuji were believed to be messages from the Shinto gods (kami), offering guidance, revealing one's fortune, and connecting the physical and spiritual worlds. These fortunes were originally obtained by making offerings at temples, where priests would divine messages from the kami. Over centuries, this practice became accessible to the broader public, embedding itself as a cherished tradition in Japanese culture. </p>
+  </div>
+  <div class="col omikuji-info-card">
+    <h3> History</h3>
+  </div>
+  <div class="col omikuji-info-card">
+    <h3> Fun Fact</h3>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="main-container">
       <h1 class="text-center">Find your number! </h1>
         <ul id="drawers" id="drawers" class="drawers">
-          <li class="drawer" data-fortune="5" data-scratched="false"></li>
-          <li class="drawer" data-fortune="15" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="500" data-scratched="false"></li>
-          <li class="drawer" data-fortune="450" data-scratched="false"></li>
-          <li class="drawer" data-fortune="100" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="1000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="50" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="10000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="100" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="1000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="5" data-scratched="false"></li>
-          <li class="drawer" data-fortune="15" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="500" data-scratched="false"></li>
-          <li class="drawer" data-fortune="450" data-scratched="false"></li>
-          <li class="drawer" data-fortune="100" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="1000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="50" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="10000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="100" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="1000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="1000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="10000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="100" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="1000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="5" data-scratched="false"></li>
-          <li class="drawer" data-fortune="15" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="500" data-scratched="false"></li>
-          <li class="drawer" data-fortune="450" data-scratched="false"></li>
-          <li class="drawer" data-fortune="100" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="1000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="50" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="10000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="100" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="1000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="1000" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
-          <li class="drawer" data-fortune="0" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(大吉, dai-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(半吉, han-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(大吉, dai-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(半吉, han-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(大吉, dai-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(半吉, han-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(大吉, dai-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(半吉, han-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(半吉, han-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(大吉, dai-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(半吉, han-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(半吉, han-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(半吉, han-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(小吉, shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(小吉, shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(小吉, shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(大吉, dai-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(小吉, shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(大吉, dai-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(小吉, shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(小吉, shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末小吉, sue-shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(凶, kyō)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(大吉, dai-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(末吉, sue-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(吉, kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(小吉, shō-kichi)" data-scratched="false"></li>
+          <li class="drawer" data-fortune="(小吉, shō-kichi)" data-scratched="false"></li>
         </ul>
     </div>
+
+
+
+
     <script src="lib/index.js"></script>
   </body>
 </html>

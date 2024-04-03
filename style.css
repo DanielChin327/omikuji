@@ -63,3 +63,7 @@ ul.drawers{
   border-color: #ccc;
   opacity: 0.8;
 }
+
+.omikuji-info-card{
+  outline: 2px solid black;
+}

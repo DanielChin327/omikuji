@@ -64,6 +64,19 @@ ul.drawers{
   opacity: 0.8;
 }
 
+.omikuji-intro{
+  font-weight:300;
+  text-align:center;
+  padding: 20px;
+}
+
+.how-to-title{
+ text-align: center;
+}
 .omikuji-info-card{
   outline: 2px solid black;
+  padding: 30px;
+  border: 20px;
+  margin: 30px;
+  text-align: center;
 }
